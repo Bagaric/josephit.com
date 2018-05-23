@@ -12,12 +12,12 @@ script:
   - npm run lint
   - npm run build
   - npm run test
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep-history: true
-  local-dir: build
-  on:
-    branch: master
-  fqdn: josephit.com
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   github-token: $GITHUB_TOKEN
+#   keep-history: true
+#   local-dir: build
+#   on:
+#     branch: master
+#   fqdn: josephit.com
