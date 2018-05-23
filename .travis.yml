@@ -19,3 +19,4 @@ deploy:
   local-dir: build
   on:
     branch: master
+  fqdn: josephit.com
